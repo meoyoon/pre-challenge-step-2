@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import styles from '@/styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -10,13 +10,11 @@ const Home: NextPage = () => {
         <meta name="description" content="Meo-Yooniverse" />
       </Head>
 
-      <main className={styles.main}>
-      </main>
+      <main className={styles.main}></main>
 
-      <footer className={styles.footer}>
-      </footer>
+      <footer className={styles.footer}></footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
