@@ -3,7 +3,7 @@ yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
 ```shell
-$ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript
+$ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-import
 ```
 
 ## 기능 정의
@@ -28,4 +28,12 @@ $ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin 
 
 - [ ] vercel 배포가 정상적으로 되었는가?
 - [ ] (추가) 나중을 위해 CI 구축하기
-  > > > > > > > 5daf447 (memo: test list 작성)
+
+```shell
+yarn add remark remark-html
+```
+
+### 참고
+
+https://nextjs.org/docs/basic-features/data-fetching/get-static-props
+사용해서 연결
